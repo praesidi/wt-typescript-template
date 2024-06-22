@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": true,
+		"target": "ES3",
+		"module": "es6",
+		"allowJs": true,
+		"outDir": "../build",
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"strict": false,
+		"baseUrl": "src",
+		"typeRoots": [
+			"../node_modules/@umbrik/webtutor-types/lib",
+			"../node_modules/@umbrik/webtutor-types/lib/xml"
+		],
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"noLib": true,
+		"ignoreDeprecations": "5.0"
+	},
+	"include": ["./**/*.ts", "../index.d.ts"]
+}
