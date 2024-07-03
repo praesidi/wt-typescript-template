@@ -1,4 +1,4 @@
-# Шаблон для бэкенда gulp + typescript
+# Шаблон для бэкенда/агента на TypeScript + Gulp
 
 Готовый пресет на основе gulp, gulp-include и webtutor-types - библиотеки для разработки бэкенда на TypeScript.
 
