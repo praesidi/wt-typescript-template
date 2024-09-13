@@ -2,14 +2,7 @@
 
 import { Test } from './modules/test_module'
 
-const DEV_MODE =
-	ArrayOptFirstElem(
-		XQuery(`sql:
-	SELECT id
-	FROM dbo.custom_web_templates
-	WHERE code = 'test' --Код шаблона
-		AND enable_anonymous_access = true`)
-	) != undefined
+const DEV_MODE = customWebTemplate.access.enable_anonymous_access;
 
 if (DEV_MODE) {
 	// Для тестирования, шаблон должен быть анонимным.
